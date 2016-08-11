@@ -1,0 +1,16 @@
+document.documentElement.scrollTop  
+
+要获取当前页面的滚动条纵坐标位置，用：  
+ document.documentElement.scrollTop;  
+ 而不是：  
+ document.body.scrollTop;  
+ documentElement 对应的是 html 标签，而 body 对应的是 body 标签。  
+  在标准w3c下，document.body.scrollTop恒为0，需要用  
+ 
+document.documentElement.scrollTop来代替;  
+ 如果你想定位鼠标相对于页面的绝对位置时，你会发现google里面1000  
+篇文章里面有999.99篇会让你使用event.clientX  
++document.body.scrollLeft，event.clientY  
++document.body.scrollTop，如果你发现你的鼠标定位偏离了你的  
+想象，请不要奇怪，这是再正常不过的事情。  
+ ie5.5之后已经不支持document.body.scrollX对象了。
