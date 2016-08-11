@@ -1,0 +1,10 @@
+#js中选择所有子节点：
+.childNodes  包含空文本  
+.children  不包含空文本  
+
+#jQuery选择所有子节点  
+.contents()  包含空文本  
+.children()  不包含空文本  
+.find()     不含含空文本，可以加上参数  
+
+ 
