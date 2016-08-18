@@ -4,7 +4,7 @@
 3.通过定位该图片显示背景区域。  
 
 
-background:url(img.png) no-repeat -30px 40px;
+background:url(img.png) no-repeat -30px 40px fixed;
 
 **您需要把 background-attachment 属性设置为 "fixed"，才能保证该属性在 Firefox 和 Opera 中正常工作。**
 
