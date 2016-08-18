@@ -1,0 +1,12 @@
+# 关于换行问题  
+自动换行：  
+          
+          overflow:hidden;  
+			word-break: break-all;  
+超出部分省略号表示:  
+  
+	      		overflow:hidden;    //超出隐藏
+	      		
+	         	white-space:nowrap;  //强制不换行
+	         	
+				text-overflow: ellipsis;//表示点点点

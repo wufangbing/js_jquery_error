@@ -1,0 +1,17 @@
+# css-sprites使用  
+1.将小图片拼成一张大图片  
+2.进行压缩处理。  
+3.通过定位该图片显示背景区域。  
+
+
+background:url(img.png) no-repeat -30px 40px;
+
+**您需要把 background-attachment 属性设置为 "fixed"，才能保证该属性在 Firefox 和 Opera 中正常工作。**
+
+background第一个数字：X轴的偏移量
+background第二个数字：Y轴的偏移量
+上述两个偏移量就是用图片拼合生成器拼合图片时生成的Css规则中的偏移量
+
+5、需要repeat的图片也有可能不适合放在sprite中，当然如果只是单向的repeat，如：repeat-x
+或repeat-y，只要保证图片在该方向铺满就可以了，但是如果sprite很大，会消耗较多
+的内存，或者需要横向和纵向同时平铺的图片，也都不适合放在sprite中
