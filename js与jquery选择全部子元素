@@ -1,0 +1,4 @@
+# js与jquery选择全部子元素
+**.childNodes==.contents()**  包含空文本
+
+**children==children()**     不包含空文本
