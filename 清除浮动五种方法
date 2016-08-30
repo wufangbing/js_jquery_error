@@ -1,0 +1,6 @@
+#清除浮动  
+1. 子元素最后加上空div  clear：both；
+2. 父元素跟着浮动，之后在同级的下一个加上一个一样的大的进行clear：both；
+3. 父亲元素加上overflow：hidden；
+4. 父亲元素加上overflow：auto；
+5. .clearfloat:after{dispaly:block;clear:both;visibility:hidden;content:'';height:0;}    .clearfloat{zoom:1;}

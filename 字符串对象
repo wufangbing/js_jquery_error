@@ -14,4 +14,5 @@ split(‘’);//用‘’符号分割字符串  默认为，分割
 toUpperCase()_toLowerCase()  
 repalce(str1,str2)//str2替换str1;
 
-**concat,split,join,sort不改变数组或者字符串本身,但是reverse会改变**
+**concat,split,join,sort不改变数组或者字符串本身。  
+sort/reverse  str不改变   arr改变
