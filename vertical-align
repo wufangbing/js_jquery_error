@@ -1,0 +1,7 @@
+# vertical-align
+1. 默认为baseline;  
+2. bottom  图片向下顶  
+3. top   	图片向上顶 
+4. middle  图片往上移动已文本为基准线范围
+5. text-bottom 所有往顶下基本线
+6. text-top 文本在顶上基本线
