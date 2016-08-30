@@ -1,0 +1,5 @@
+#跨域  
+不同域之间的内容是不能获取的，但是可以获取脚本来的到其中的内容  
+1.jsonp  后需要加上一个回调函数  
+2.把两个页面的document.domin设置一样的值  
+3.把a.html 的window.name修改然后用window.location='b.html'进入b的页面中并且输出
