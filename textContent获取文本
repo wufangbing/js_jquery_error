@@ -1,0 +1,3 @@
+#获取文本  
+js:textContent与innerHTML用法相似  
+jquery：html() text() val()
